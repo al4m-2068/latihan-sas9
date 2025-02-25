@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000640;
+}
+
+.lat {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lat button {
+    cursor: pointer;
+    width: max-content;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #F3AE41;
+    font-size: 20px;
+    font-family: Figtree;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: transform 1000ms;
+}
+.latminsatu {
+    height: 100vh;
+    background-color: white;
+}
+.satu button:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+.dua {
+    background-color: #F3AE41;
+    gap: 20px;
+}
+.dua button {
+    background-color: #000640;
+    color: white;
+}
+.tiga {
+    background-color: white;
+}
+.tiga button {
+    background-color: #000640;
+    color: white;
+}
