@@ -19,6 +19,10 @@ function loopBtn3() {
 }
 
 function tambah(a = parseInt(prompt("Masukkan angka pertama")), b = parseInt(prompt("Masukkan angka kedua"))) {
-    c = a + b;
-    return alert(`Hasil dari ${a} + ${b} adalah ${c}`)
+    if (isNaN(a) || isNaN(b)) {
+        alert("Masukkan angka yang valid >A<!")
+    } else {
+        c = a + b;
+        return alert(`Hasil dari ${a} + ${b} adalah ${c}`)
+    }
 }
